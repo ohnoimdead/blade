@@ -28,7 +28,7 @@ collections:
     editor:
       preview: false
     files:
-      - file: "index.md"
+      - file: "src/index.md"
         label: "Home Page"
         name: "home_page"
         fields:
