@@ -11,18 +11,6 @@ media_folder: "src/static/img"
 public_folder: "/static/img"
 
 collections:
-  # - name: 'posts'
-  #   label: 'Posts'
-  #   folder: 'content/posts'
-  #   create: true
-  #   slug: '{{slug}}'
-  #   preview_path: 'posts/{{slug}}'
-  #   editor:
-  #     preview: true
-  #   fields:
-  #     - { label: 'Title', name: 'title', widget: 'string' }
-  #     - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-  #     - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: 'pages'
     label: 'Pages'
     editor:
