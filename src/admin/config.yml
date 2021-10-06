@@ -4,7 +4,7 @@ backend:
   branch: master
   repo: ohnoimdead/blade # TODO
 
-site_url: https://blade.com # TODO
+site_url: https://blade-starter.netlify.com # TODO
 
 publish_mode: editorial_workflow
 media_folder: "src/static/img"
