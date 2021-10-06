@@ -1,7 +1,7 @@
 # All fields marked TODO need to be updated after cloning.
 backend:
   name: github
-  branch: master
+  branch: main
   repo: ohnoimdead/blade # TODO
 
 site_url: https://blade-starter.netlify.com # TODO
