@@ -1,4 +1,4 @@
-# Blade: ❤️Eleventy + Netlify CMS Starter❤️
+# ❤️ Eleventy + Netlify CMS Starter ❤️
 
 I got tired of re-rolling all the base stuff when setting up new static sites, so this is my opinionated (i.e. works for me) boilerplate for Netlify CMS/Eleventy/Tailwind.
 
