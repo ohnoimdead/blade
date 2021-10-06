@@ -1,0 +1,8 @@
+---
+items:
+  - text: Menu One
+    url: "#"
+  - text: Menu Two
+    url: "#"
+  - text: Blog
+    url: "/posts"

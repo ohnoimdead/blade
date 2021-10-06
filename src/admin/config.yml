@@ -1,0 +1,53 @@
+# All fields marked TODO need to be updated after cloning.
+backend:
+  name: github
+  branch: master
+  repo: ohnoimdead/blade # TODO
+
+site_url: https://blade.com # TODO
+
+publish_mode: editorial_workflow
+media_folder: "src/static/img"
+public_folder: "/static/img"
+
+collections:
+  # - name: 'posts'
+  #   label: 'Posts'
+  #   folder: 'content/posts'
+  #   create: true
+  #   slug: '{{slug}}'
+  #   preview_path: 'posts/{{slug}}'
+  #   editor:
+  #     preview: true
+  #   fields:
+  #     - { label: 'Title', name: 'title', widget: 'string' }
+  #     - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+  #     - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: 'pages'
+    label: 'Pages'
+    editor:
+      preview: false
+    files:
+      - file: "index.md"
+        label: "Home Page"
+        name: "home_page"
+        fields:
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: "settings"
+    label: "Settings"
+    editor:
+      preview: false
+    files:
+      - name: "items"
+        label: "Navigation"
+        file: "src/_data/navigation.yaml"
+        fields:
+          - name: items
+            label: Nav Items
+            widget: list
+            allow_add: true
+            collapsed: false
+            fields:
+              - { label: Title, name: text, widget: string }
+              - { label: URL, name: url, widget: string }
