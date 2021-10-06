@@ -1,8 +1,7 @@
----
 items:
-  - text: Menu One
+  - text: Menu Poo
     url: "#"
   - text: Menu Two
     url: "#"
   - text: Blog
-    url: "/posts"
+    url: /posts
