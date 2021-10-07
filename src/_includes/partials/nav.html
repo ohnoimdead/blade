@@ -1,11 +1,12 @@
-<h1>this is the nav</h1>
-
-{% if navigation.items %}
-<ul>
-  {% for item in navigation.items %}
-    <li>
-      <a href="{{ item.url }}">{{ item.text }}</a>
-    </li>
-  {% endfor %}
-</ul>
-{% endif %}
+<div class="flex justify-between p-5 bg-gray-900 dark:bg-gray-100 text-gray-100 dark:text-gray-900">
+  <div class="text-2xl font-serif text-purple-200 dark:text-purple-800">
+    <a href="/" class="hover:text-white dark:hover:text-black">Blade</a>
+  </div>
+  <div class="flex flex-row">
+    {% for item in navigation.items %}
+      <div class="px-5 py-1">
+        <a href="{{ item.url }}" class="hover:underline">{{ item.text }}</a>
+      </div>
+    {% endfor %}
+  </div>
+</div>

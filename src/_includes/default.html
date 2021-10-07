@@ -13,10 +13,12 @@
     <link rel="stylesheet" type="text/css" href="/static/css/style.css"/>
   </head>
   <body>
+    <div class="min-h-screen bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100">
     {% include "./partials/nav.html" %}
-
-    {{ content | safe }}
-
+    <div class="p-5">
+      {{ content | safe }}
+    </div>
     {% include "./partials/footer.html" %}
+    </div>
   </body>
 </html>
