@@ -12,6 +12,7 @@ I'm at https://treshenry.net and https://www.linkedin.com/in/treshenry/.
 2. Install deps ```npm install```
 3. ```npm run build``` (first time only)
 4. ```npm run start```
+5. or ```netlify dev``` to run with the Netlify backend and use the CMS in local dev.
 
 # Site Setup
 
