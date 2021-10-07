@@ -6,14 +6,10 @@ Blade is based heavily on https://github.com/surjithctly/neat-starter but simpli
 
 I'm at https://treshenry.net and https://www.linkedin.com/in/treshenry/.
 
-# Local Setup
+# Create New Site
 
 1. Clone this repo ```git clone https://github.com/ohnoimdead/blade ./mynewsite```
 2. Install deps ```npm install```
 3. ```npm run build``` (first time only)
 4. ```npm run start```
 5. or ```netlify dev``` to run with the Netlify backend and use the CMS in local dev.
-
-# Site Setup
-
-TODO: Add steps so I can remember how to set up auth, Netlify CLI, etc. Actually stand up a site.
