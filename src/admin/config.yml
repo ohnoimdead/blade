@@ -7,30 +7,33 @@ backend:
 site_url: https://blade-starter.netlify.com # TODO
 
 publish_mode: editorial_workflow
-media_folder: "src/static/img"
-public_folder: "/static/img"
+media_folder: src/static/img
+public_folder: /static/img
 
 collections:
-  - name: 'pages'
-    label: 'Pages'
+  - name: pages
+    label: Pages
     editor:
       preview: false
     files:
-      - file: "src/index.md"
-        label: "Home Page"
-        name: "home_page"
+      - file: src/index.md
+        label: Home Page
+        name: home_page
         fields:
-          - { label: 'Title', name: 'title', widget: 'string' }
-          - { label: 'Body', name: 'body', widget: 'markdown' }
-  - name: "settings"
-    label: "Settings"
+          - { label: Title, name: title, widget: string }
+          - { label: Body, name: body, widget: markdown }
+  - name: settings
+    label: Settings
     editor:
       preview: false
     files:
-      - name: "items"
-        label: "Navigation"
-        file: "src/_data/navigation.yaml"
+      - name: navigation
+        label: Navigation
+        file: src/_data/navigation.yaml
         fields:
+          - name: title
+            label: Site Title
+            widget: string
           - name: items
             label: Nav Items
             widget: list
